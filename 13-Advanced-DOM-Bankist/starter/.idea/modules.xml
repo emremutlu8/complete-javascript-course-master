@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../Nexter/.idea/Nexter.iml" filepath="$PROJECT_DIR$/../../../Nexter/.idea/Nexter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../React Deneme/.idea/React Deneme.iml" filepath="$PROJECT_DIR$/../../../../React Deneme/.idea/React Deneme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../digigammon/.idea/digigammon.iml" filepath="$PROJECT_DIR$/../../../../digigammon/.idea/digigammon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../18-forkify/final/.idea/final.iml" filepath="$PROJECT_DIR$/../../18-forkify/final/.idea/final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../react-redux/.idea/react-redux.iml" filepath="$PROJECT_DIR$/../../../../react-redux/.idea/react-redux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../react-the-complete-guide-incl-redux/.idea/react-the-complete-guide-incl-redux.iml" filepath="$PROJECT_DIR$/../../../../react-the-complete-guide-incl-redux/.idea/react-the-complete-guide-incl-redux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../18-forkify/starter/.idea/starter.iml" filepath="$PROJECT_DIR$/../../18-forkify/starter/.idea/starter.iml" />
+    </modules>
+  </component>
+</project>
