@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16676eac-de65-4ec3-83b9-6f5463221ce6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1jutPVSKCanBbQVCFaX8llfdEOt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../02-Fundamentals-Part-2/starter" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1366" y="611" key="#Plugins" timestamp="1604666618717">
+      <screen x="1366" y="0" width="768" height="1366" />
+    </state>
+    <state x="1366" y="611" key="#Plugins/0.0.1366.768/1366.0.768.1366@1366.0.768.1366" timestamp="1604666618717" />
+    <state x="1530" y="725" key="FileChooserDialogImpl" timestamp="1604753247177">
+      <screen x="1366" y="0" width="768" height="1366" />
+    </state>
+    <state x="1530" y="725" key="FileChooserDialogImpl/0.0.1366.768/1366.0.768.1366@1366.0.768.1366" timestamp="1604753247177" />
+    <state x="1410" y="687" width="672" height="678" key="search.everywhere.popup" timestamp="1604666562825">
+      <screen x="1366" y="0" width="768" height="1366" />
+    </state>
+    <state x="1410" y="687" width="672" height="678" key="search.everywhere.popup/0.0.1366.768/1366.0.768.1366@1366.0.768.1366" timestamp="1604666562825" />
+  </component>
+</project>

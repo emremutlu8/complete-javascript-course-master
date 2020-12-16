@@ -1,0 +1,85 @@
+"use strict";
+
+require("core-js/modules/es.typed-array.float32-array");
+
+require("core-js/modules/es.typed-array.float64-array");
+
+require("core-js/modules/es.typed-array.int8-array");
+
+require("core-js/modules/es.typed-array.int16-array");
+
+require("core-js/modules/es.typed-array.int32-array");
+
+require("core-js/modules/es.typed-array.uint8-array");
+
+require("core-js/modules/es.typed-array.uint8-clamped-array");
+
+require("core-js/modules/es.typed-array.uint16-array");
+
+require("core-js/modules/es.typed-array.uint32-array");
+
+require("core-js/modules/es.typed-array.from");
+
+require("core-js/modules/es.typed-array.of");
+
+require("core-js/modules/web.immediate");
+
+require("core-js/modules/web.url");
+
+require("core-js/modules/web.url.to-json");
+
+require("core-js/modules/web.url-search-params");
+
+var _icons = _interopRequireDefault(require("url:../img/icons.svg"));
+
+require("regenerator-runtime/runtime.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+const recipeContainer = document.querySelector('.recipe');
+
+const timeout = function (s) {
+  return new Promise(function (_, reject) {
+    setTimeout(function () {
+      reject(new Error(`Request took too long! Timeout after ${s} second`));
+    }, s * 1000);
+  });
+}; // https://forkify-api.herokuapp.com/v2
+///////////////////////////////////////
+
+
+const renderSpinner = function (parentEl) {
+  const markup = `
+  <div class="spinner">
+          <svg>
+            <use href="${_icons.default}#icon-loader"></use>
+          </svg>
+        </div> 
+  `;
+  parentEl.innerHTML = '';
+  parentEl.insertAdjacentHTML('afterbegin', markup);
+};
+
+const showRecipe = async function () {
+  try {
+    // 1) Loading recipe
+    renderSpinner(recipeContainer);
+    const res = await fetch('https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc886');
+    const data = await res.json();
+    if (!res.ok) throw new Error(`${data.message} (${res.status})`);
+    let {
+      recipe
+    } = data.data;
+    recipe = {
+      id: recipe.id,
+      title: recipe.title,
+      publisher: recipe.publisher,
+      sourceUrl: recipe.source_url,
+      servings: recipe.servings,
+      cookingTime: recipe.cooking_time,
+      ingredients: recipe.ingredients
+    };
+  } catch (err) {
+    console.log(err);
+  }
+};
